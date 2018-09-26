@@ -24,7 +24,7 @@ $(document).on("ready", function(){
 	});
 
 	function onSuccess(json) {
-		$("div").append("<h1>"+json.title+"</h1>");
+		$(".gif-gallery").append("");
 	}
 
 	function onError(xhr, status, errorThrown) {
